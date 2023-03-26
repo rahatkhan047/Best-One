@@ -1,0 +1,427 @@
+*{ padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+/* Header Part Start */
+header{
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 120vh;
+}
+.navbar{
+    background-color: #303030 !important;
+    padding: 10px 30px;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link{
+    font-size: 20px;
+    margin: 0 10px; 
+    padding: 0;
+    transition: .4s all ease-in-out;
+}
+.nav-link:hover{
+    color: #e8631c;
+}
+
+.search{
+    border-radius: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.submit{
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    margin-right: 7px;
+}
+.search-txt{
+    width: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition: 1s;
+}
+
+.active{
+    background: white;
+}
+.active .submit{
+    color: black;
+    float: right;
+}
+.active .search-txt{
+  width: 200px;
+  padding: 5px 15px;
+}
+.hg{
+    min-height: 95vh;
+    align-items: end;
+}
+.header_banner{
+
+}
+.header_banner h1{
+    font-size: 90px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.header_banner p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.btn_register{
+    background: #e8631c;
+    padding: 9px 58px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 2px;
+    transition: .4s all ease-in-out;
+}
+.btn_register:hover{
+    background: #e25305;
+    color: #fff;
+}
+/* Header Part Start */
+/* Dance Tour Part Start */
+.Dance_Tour{
+    background: #e8631c;
+    margin-bottom: 50p;
+}
+.Dance_Tour h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Dance_Tour p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.Dance_Tour_item{
+    padding: 0 25px;
+}
+.Dance_Tour_item_cont{
+    background: #303030;
+    text-align: center;
+    padding: 20px 0;
+}
+.Dance_Tour_item img{
+    width: 100%;
+    
+}
+.Dance_Tour_item_cont h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.Dance_Tour_item_cont p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/* Dance Tour Part End */
+/* Pricing Part Start */
+.Pricing{
+    background-color: #303030;
+}
+.Pricing h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.Pricing p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.pricing_item{
+    text-align: center;
+    background: #e8631c;
+    margin: 0px 25px;
+    border-radius: 5px;
+}
+.pricing-pd{
+    padding: 0;
+}
+.pricing_item img{
+    width: 100px;
+    margin-top: 50px;
+}
+.pricing_item h1{
+    margin-top: 45px;
+    font-size: 30px;
+}
+.pricing_item p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.btn_price{
+    background: #303030;
+    padding: 5px 74px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    transition: .4s all ease-in-out;
+}
+.btn_price:hover{
+    background-color: #fff;
+    color: #303030;
+
+}
+/* Pricing Part End */
+/* AMAZING DANCE Part Start */
+.amazing_pd{
+    padding: 0;
+}
+.amazing{
+    background-color: #e8631c;
+}
+.amazing_cont{
+    padding: 0 65px;
+}
+.amazing_cont h1{
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.amazing_cont p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.btn_read_more{
+    background: #303030;
+    padding: 5px 74px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 2px;
+    transition: .4s all ease-in-out;
+}
+.btn_read_more:hover{
+    background-color: #fff;
+    color: #303030;
+}
+/* AMAZING DANCE Part End */
+/* Our Statistics Part Start */
+.Statistics{
+    padding: 150px;
+    background-color: #303030;
+}
+.Statistics h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.Statistics p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+.Statistics_num{
+    display: flex;
+}
+.Statistics_item span{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.Statistics_item h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+/* Our Statistics Part End */
+/* Herbert Simon Part Start */
+.Herbert_Simon{
+    background-image: url(../images/Herbert-Simon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 145vh;
+}
+.Herbert_Simon_hg{
+    min-height: 145vh;
+    align-items: center;
+}
+.Herbert_Simon p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.Herbert_Simon h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 38px;
+}
+/* Herbert Simon Part Start */
+/* Subscribe Part Start */
+.subscribe{
+    padding: 100px;
+    background-color: #e8631c;
+}
+.subscribe h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.subscribe p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+form{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    margin-top: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+form input[type="text"]{
+    padding: 0px 20px;
+    width: 74%;
+    background: #fff;
+    border-right: none;
+    border: none;
+    outline: none;
+    color: #303030;
+}
+
+form input::placeholder{
+    color: #3d3d3d;
+    opacity: .5;
+}
+
+form input[type="submit"]{
+    width: 25%;
+    background: #303030;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* Subscribe Part End */
+/* Footer Part Start */
+footer{
+    padding: 100px;
+    background-color: #303030;
+}
+footer h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.footer_icon ul{
+    list-style: none;
+    display: flex;
+}
+.footer_icon ul li{
+    background: #fff;
+    width: 35px;height: 35px;
+    margin-right: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.footer_icon ul li a{
+    font-size: 19px;
+    color: #303030;
+    line-height: 30px;
+}
+.footer_right{
+
+}
+.footer_right h2{
+
+
+}
+.footer_right ul{
+
+}
+.footer_right ul li{
+    list-style: none;
+    margin-bottom: 9px;
+}
+.footer_right ul li a{
+    font-family: 'Montserrat',
+     sans-serif;
+     text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+}
+/* Footer Part End */
